@@ -1,3 +1,5 @@
+preview : - https://day03-three.vercel.app/
+
 <h1> logic behind grade calculator</h1> <br>
 <h3>if (score >= 90) {<br>
     return "You got Grade A";<br>
