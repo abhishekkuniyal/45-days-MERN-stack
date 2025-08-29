@@ -1,12 +1,12 @@
 <h1> logic behind grade calculator</h1> <br>
-<h3>if (score >= 90) {
-    return "You got Grade A";
-  } else if (score >= 80) {
-    return "You got Grade B";
-  } else if (score >= 70) {
-    return "You got Grade C";
-  } else if (score > 60) {
-    return "You got Grade D";
-  } else {
-    return "You are failed, better luck next time";
+<h3>if (score >= 90) {<br>
+    return "You got Grade A";<br>
+  } else if (score >= 80) {<br>
+    return "You got Grade B";<br>
+  } else if (score >= 70) {<br>
+    return "You got Grade C";<br>
+  } else if (score > 60) {<br>
+    return "You got Grade D";<br>
+  } else {<br>
+    return "You are failed, better luck next time";<br>
   }</h3>
