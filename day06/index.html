@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Keyboard&family=Pangolin&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Random quote generator</title>
+  </head>
+  <body class="bg-gradient-to-tr from-10% from-pink-800  via-sky-800 to-rose-800 ">
+    <div class="max-w-xl mx-auto flex justify-center  items-center p-5 min-h-screen">
+      <div class=" ring-2 ring-red-900   shadow-[0px_0px_7px_5px] shadow-white  md:w-100 md:h-80  justify-center md:p-2 rounded-xl bg-sky-50/95  h-70 ">
+        <h1 class="libertinus-keyboard-regular md:text-2xl text-center mt-3 text-xl bg-gradient-to-tl from-10% from-indigo-600  from-15% to-rose-600 bg-clip-text text-transparent  ">Generate Your Quote</h1>
+        <div class="text-center md:mt-8  mt-5 ">
+            <div class="ring-1 ring-gray-400 rounded-xl overflow-auto overscroll-contain mx-5 max-h-15 p-2 md:max-h-25 bg-sky-50 h-20">
+                <p class="inter text-gray-800 tracking-ligh mt" id="quote"> Lorem ipsum dolor sit amet consectetur  </p>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-2 md:mt-5 mt-5 ">
+                
+                <p id="author" class="rowdies-light text-2xl" >- Ark</p>
+            </div>
+            <div class="flex justify-center gap-7 items-center  rounded-xl mt-5">
+                <a href="" class="bg-gray-300 py-1 px-2 text-blue-600 rounded-full hover:bg-gray-600 outline-1 hover:text-white"><i class="fa-brands fa-square-linkedin "></i></a>
+                <button id="btn" class=" bg-violet-600 text-white  md:px-20 py-1 rounded-md rubik px-10 shadow-[2px_2px_0px_2px] shadow-black ring-1 ring-gray-300  active:scale-90 duration-300 hover:bg-sky-600 ">Quote</button>
+                <a href="" class="bg-gray-300 py-1 px-2 text-gray-900 rounded-full outline-1 hover:text-white hover:bg-gray-600"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Grade Calculator</title>
+  </head>
+  <body
+    class="bg-gradient-to-tr from-green-100 to-red-100 via-blue-100 bg-no-repeat min-h-screen font-inter"
+  >
+  
+    <div
+      class="max-w-md mx-auto border-dashed border-2 mt-10 rounded-xl py-2 bg-gradient-to-br from-sky-50 to-blue-50 via-pink-50 shadow-[2px_2px_5px_3px] shadow-gray-900"
+    >
+      <div class="flex justify-center items-center font-bold text-xl mt-2">
+        <h1 class="text-center font-extrablack text-2xl tracking-light">
+          Grade Calculator
+        </h1>
+      </div>
+      <div class="flex justify-center items-center mt-5">
+        <input
+          type="text"
+          class="font-bold px-2 py-4 rounded-lg ring-1 text-center text-xl tracking-light"
+          id="input"
+        />
+      </div>
+      <div
+        class="grid grid-cols-3 mt-3 text-white border-black gap-3 px-7 py-5 text-xl"
+      >
+        <button
+          class="bg-black hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          1
+        </button>
+        <button
+          class="bg-black px-2 py-2 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          2
+        </button>
+        <button
+          class="bg-black px-3 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          3
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          4
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl"
+          id="btn1"
+        >
+          5
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          6
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-5 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          7
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          8
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl"
+          id="btn1"
+        >
+          9
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          0
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn2"
+        >
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button
+          class="bg-black px-5 py-3 hover:transform hover:scale-95 ease-in-out duration-200 border-b-4 ring-1 ring-rose-300 border-sky-300 rounded-xl shadow-sm shadow-black"
+          id="btn1"
+        >
+          submit
+        </button>
+      </div>
+    </div>
+    <div class="mx-auto flex justify-center mt-5 space-x-5 text-xl">
+    <a href="https://github.com/abhishekkuniyal/45-days-MERN-stack/tree/main/day03" class="px-5 py-2 bg-white ring-1 ring-black rounded-xl hover:scale-95 hover:bg-gray-200 duration-200 ease-in-out"><i class="fa-brands fa-github p-1"></i></a>
+
+    <a href="https://www.linkedin.com/in/abhishek-k-920914255/" class="px-5 py-2 bg-white ring-1 ring-black rounded-xl hover:scale-95 hover:bg-gray-200 duration-200 ease-in-out"><i class="fa-brands fa-linkedin p-1 text-blue-600 "></i></a>
+    </div>
+    
+    <script src="script.js"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </body>
+</html>
