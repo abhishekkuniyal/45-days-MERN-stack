@@ -1,4 +1,4 @@
-preview : - https://day03-three.vercel.app/
+preview : - https://day03-two.vercel.app/
 
 <h1> logic behind grade calculator</h1> <br>
 <h3>if (score >= 90) {<br>
