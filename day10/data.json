@@ -1,0 +1,412 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "githubUrl": "https://github.com/user/ecommerce",
+      "liveUrl": "https://ecommerce-demo.com"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "Collaborative project management tool",
+      "technologies": ["Vue.js", "Express", "PostgreSQL"],
+      "githubUrl": "https://github.com/user/taskapp",
+      "liveUrl": "https://taskapp-demo.com"
+    },
+    {
+      "id": 3,
+      "title": "Social Media Dashboard",
+      "description": "Analytics dashboard for social media",
+      "technologies": ["Angular", "Django", "MySQL"],
+      "githubUrl": "https://github.com/user/social-dashboard",
+      "liveUrl": "https://social-dashboard-demo.com"
+    },
+    {
+      "id": 4,
+      "title": "Recipe Sharing App",
+      "description": "Platform for sharing and discovering recipes",
+      "technologies": ["Svelte", "Firebase", "Node.js"],
+      "githubUrl": "https://github.com/user/recipe-app",
+      "liveUrl": "https://recipe-app-demo.com"
+    },
+    {
+      "id": 5,
+      "title": "Real-Time Chat Application",
+      "description": "Web-based chat with real-time updates",
+      "technologies": ["React", "Socket.io", "Express"],
+      "githubUrl": "https://github.com/user/chat-app",
+      "liveUrl": "https://chat-app-demo.com"
+    },
+    {
+      "id": 6,
+      "title": "Personal Portfolio Website",
+      "description": "Showcasing projects and skills",
+      "technologies": ["Next.js", "Tailwind CSS"],
+      "githubUrl": "https://github.com/user/portfolio",
+      "liveUrl": "https://my-portfolio.com"
+    },
+    {
+      "id": 7,
+      "title": "Online Bookstore",
+      "description": "Browse and purchase books online",
+      "technologies": ["Gatsby", "GraphQL", "Strapi"],
+      "githubUrl": "https://github.com/user/bookstore",
+      "liveUrl": "https://bookstore-demo.com"
+    },
+    {
+      "id": 8,
+      "title": "Weather Dashboard",
+      "description": "Displays current weather and forecasts",
+      "technologies": ["Vanilla JS", "OpenWeather API"],
+      "githubUrl": "https://github.com/user/weather-dashboard",
+      "liveUrl": "https://weather-dashboard-demo.com"
+    },
+    {
+      "id": 9,
+      "title": "Fitness Tracker",
+      "description": "Track workouts and monitor progress",
+      "technologies": ["React Native", "Firebase"],
+      "githubUrl": "https://github.com/user/fitness-tracker",
+      "liveUrl": "https://fitness-tracker-demo.com"
+    },
+    {
+      "id": 10,
+      "title": "Movie Database",
+      "description": "Search and discover movies",
+      "technologies": ["Vue.js", "TMDB API"],
+      "githubUrl": "https://github.com/user/movie-db",
+      "liveUrl": "https://movie-db-demo.com"
+    },
+    {
+      "id": 11,
+      "title": "Blog Platform",
+      "description": "CMS for writing and managing blog posts",
+      "technologies": ["Next.js", "Sanity CMS", "Vercel"],
+      "githubUrl": "https://github.com/user/blog-platform",
+      "liveUrl": "https://blog-platform-demo.com"
+    },
+    {
+      "id": 12,
+      "title": "Online Code Editor",
+      "description": "Browser-based code editor with live preview",
+      "technologies": ["React", "Monaco Editor"],
+      "githubUrl": "https://github.com/user/code-editor",
+      "liveUrl": "https://code-editor-demo.com"
+    },
+    {
+      "id": 13,
+      "title": "Budget Tracker",
+      "description": "Track income and expenses",
+      "technologies": ["Angular", "D3.js"],
+      "githubUrl": "https://github.com/user/budget-tracker",
+      "liveUrl": "https://budget-tracker-demo.com"
+    },
+    {
+      "id": 14,
+      "title": "News Aggregator",
+      "description": "Gathers and displays news from various sources",
+      "technologies": ["Svelte", "News API"],
+      "githubUrl": "https://github.com/user/news-aggregator",
+      "liveUrl": "https://news-aggregator-demo.com"
+    },
+    {
+      "id": 15,
+      "title": "Image Gallery",
+      "description": "Photo gallery with search and filtering",
+      "technologies": ["Vue.js", "Cloudinary"],
+      "githubUrl": "https://github.com/user/image-gallery",
+      "liveUrl": "https://image-gallery-demo.com"
+    },
+    {
+      "id": 16,
+      "title": "Music Player",
+      "description": "Simple music player with playlists",
+      "technologies": ["React", "Web Audio API"],
+      "githubUrl": "https://github.com/user/music-player",
+      "liveUrl": "https://music-player-demo.com"
+    },
+    {
+      "id": 17,
+      "title": "Job Board",
+      "description": "Platform for posting and finding jobs",
+      "technologies": ["Next.js", "Supabase"],
+      "githubUrl": "https://github.com/user/job-board",
+      "liveUrl": "https://job-board-demo.com"
+    },
+    {
+      "id": 18,
+      "title": "Forum Application",
+      "description": "Community forum for discussions",
+      "technologies": ["Node.js", "EJS", "PostgreSQL"],
+      "githubUrl": "https://github.com/user/forum-app",
+      "liveUrl": "https://forum-app-demo.com"
+    },
+    {
+      "id": 19,
+      "title": "Video Conferencing App",
+      "description": "Peer-to-peer video communication",
+      "technologies": ["React", "WebRTC", "Socket.io"],
+      "githubUrl": "https://github.com/user/video-chat",
+      "liveUrl": "https://video-chat-demo.com"
+    },
+    {
+      "id": 20,
+      "title": "Quiz Application",
+      "description": "Interactive quizzes with scoring",
+      "technologies": ["Vue.js", "Express", "MongoDB"],
+      "githubUrl": "https://github.com/user/quiz-app",
+      "liveUrl": "https://quiz-app-demo.com"
+    },
+    {
+      "id": 21,
+      "title": "To-Do List App",
+      "description": "Simple and clean to-do list manager",
+      "technologies": ["React", "Redux"],
+      "githubUrl": "https://github.com/user/todo-app",
+      "liveUrl": "https://todo-app-demo.com"
+    },
+    {
+      "id": 22,
+      "title": "Recipe Organizer",
+      "description": "Save and categorize your favorite recipes",
+      "technologies": ["Angular", "Firebase"],
+      "githubUrl": "https://github.com/user/recipe-organizer",
+      "liveUrl": "https://recipe-organizer-demo.com"
+    },
+    {
+      "id": 23,
+      "title": "URL Shortener",
+      "description": "Service to shorten long URLs",
+      "technologies": ["Node.js", "Express", "Redis"],
+      "githubUrl": "https://github.com/user/url-shortener",
+      "liveUrl": "https://url-shortener-demo.com"
+    },
+    {
+      "id": 24,
+      "title": "Polls & Surveys App",
+      "description": "Create and share polls and surveys",
+      "technologies": ["Vue.js", "GraphQL", "Apollo"],
+      "githubUrl": "https://github.com/user/polls-app",
+      "liveUrl": "https://polls-app-demo.com"
+    },
+    {
+      "id": 25,
+      "title": "Expense Manager",
+      "description": "Track daily expenses and generate reports",
+      "technologies": ["React Native", "Realm DB"],
+      "githubUrl": "https://github.com/user/expense-manager",
+      "liveUrl": "https://expense-manager-demo.com"
+    },
+    {
+      "id": 26,
+      "title": "E-learning Platform",
+      "description": "Online courses and learning materials",
+      "technologies": ["Next.js", "Prisma", "PostgreSQL"],
+      "githubUrl": "https://github.com/user/elearning-platform",
+      "liveUrl": "https://elearning-platform-demo.com"
+    },
+    {
+      "id": 27,
+      "title": "Travel Booking Site",
+      "description": "Search and book flights and hotels",
+      "technologies": ["React", "Node.js", "Stripe API"],
+      "githubUrl": "https://github.com/user/travel-site",
+      "liveUrl": "https://travel-site-demo.com"
+    },
+    {
+      "id": 28,
+      "title": "Event Management System",
+      "description": "Plan and manage events and RSVPs",
+      "technologies": ["Angular", "Firebase"],
+      "githubUrl": "https://github.com/user/event-manager",
+      "liveUrl": "https://event-manager-demo.com"
+    },
+    {
+      "id": 29,
+      "title": "Portfolio CMS",
+      "description": "Content management for personal portfolios",
+      "technologies": ["Gatsby", "Contentful"],
+      "githubUrl": "https://github.com/user/portfolio-cms",
+      "liveUrl": "https://portfolio-cms-demo.com"
+    },
+    {
+      "id": 30,
+      "title": "Product Landing Page",
+      "description": "Modern landing page for a SaaS product",
+      "technologies": ["Next.js", "Tailwind CSS"],
+      "githubUrl": "https://github.com/user/product-landing",
+      "liveUrl": "https://product-landing-demo.com"
+    },
+    {
+      "id": 31,
+      "title": "Cryptocurrency Tracker",
+      "description": "Monitor cryptocurrency prices in real-time",
+      "technologies": ["Vue.js", "CoinGecko API"],
+      "githubUrl": "https://github.com/user/crypto-tracker",
+      "liveUrl": "https://crypto-tracker-demo.com"
+    },
+    {
+      "id": 32,
+      "title": "Food Delivery App",
+      "description": "Order food from local restaurants",
+      "technologies": ["React Native", "Express", "MongoDB"],
+      "githubUrl": "https://github.com/user/food-app",
+      "liveUrl": "https://food-app-demo.com"
+    },
+    {
+      "id": 33,
+      "title": "Medical Appointment System",
+      "description": "Book and manage doctor's appointments",
+      "technologies": ["Angular", "NestJS", "PostgreSQL"],
+      "githubUrl": "https://github.com/user/med-app",
+      "liveUrl": "https://med-app-demo.com"
+    },
+    {
+      "id": 34,
+      "title": "File Sharing Platform",
+      "description": "Upload and share files securely",
+      "technologies": ["Svelte", "Node.js", "AWS S3"],
+      "githubUrl": "https://github.com/user/file-share",
+      "liveUrl": "https://file-share-demo.com"
+    },
+    {
+      "id": 35,
+      "title": "Language Learning App",
+      "description": "Interactive lessons and quizzes for learning a language",
+      "technologies": ["React", "Django"],
+      "githubUrl": "https://github.com/user/lang-app",
+      "liveUrl": "https://lang-app-demo.com"
+    },
+    {
+      "id": 36,
+      "title": "Stock Market Dashboard",
+      "description": "Track and analyze stock performance",
+      "technologies": ["Vue.js", "Alpha Vantage API", "Chart.js"],
+      "githubUrl": "https://github.com/user/stock-dashboard",
+      "liveUrl": "https://stock-dashboard-demo.com"
+    },
+    {
+      "id": 37,
+      "title": "Customer Relationship Manager (CRM)",
+      "description": "Manage customer interactions and sales pipelines",
+      "technologies": ["Next.js", "Express", "MongoDB"],
+      "githubUrl": "https://github.com/user/crm-app",
+      "liveUrl": "https://crm-app-demo.com"
+    },
+    {
+      "id": 38,
+      "title": "Podcast Directory",
+      "description": "Discover and listen to podcasts",
+      "technologies": ["Gatsby", "Podcast Index API"],
+      "githubUrl": "https://github.com/user/podcast-app",
+      "liveUrl": "https://podcast-app-demo.com"
+    },
+    {
+      "id": 39,
+      "title": "Recipe Discovery App",
+      "description": "Find recipes based on ingredients you have",
+      "technologies": ["React", "Spoonacular API"],
+      "githubUrl": "https://github.com/user/recipe-discovery",
+      "liveUrl": "https://recipe-discovery-demo.com"
+    },
+    {
+      "id": 40,
+      "title": "Travel Itinerary Planner",
+      "description": "Create and organize travel plans",
+      "technologies": ["Vue.js", "Google Maps API"],
+      "githubUrl": "https://github.com/user/travel-planner",
+      "liveUrl": "https://travel-planner-demo.com"
+    },
+    {
+      "id": 41,
+      "title": "Subscription Manager",
+      "description": "Track and manage your monthly subscriptions",
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "githubUrl": "https://github.com/user/subscription-manager",
+      "liveUrl": "https://subscription-manager-demo.com"
+    },
+    {
+      "id": 42,
+      "title": "Personal Finance Dashboard",
+      "description": "Comprehensive view of your finances",
+      "technologies": ["Angular", "Node.js", "D3.js"],
+      "githubUrl": "https://github.com/user/finance-dashboard",
+      "liveUrl": "https://finance-dashboard-demo.com"
+    },
+    {
+      "id": 43,
+      "title": "Book Club App",
+      "description": "Connect with other readers and discuss books",
+      "technologies": ["Vue.js", "Firebase"],
+      "githubUrl": "https://github.com/user/book-club",
+      "liveUrl": "https://book-club-demo.com"
+    },
+    {
+      "id": 44,
+      "title": "Code Snippet Manager",
+      "description": "Save and organize useful code snippets",
+      "technologies": ["React", "Express", "MongoDB"],
+      "githubUrl": "https://github.com/user/snippet-manager",
+      "liveUrl": "https://snippet-manager-demo.com"
+    },
+    {
+      "id": 45,
+      "title": "Car Rental Platform",
+      "description": "Book rental cars online",
+      "technologies": ["Next.js", "Stripe"],
+      "githubUrl": "https://github.com/user/car-rental",
+      "liveUrl": "https://car-rental-demo.com"
+    },
+    {
+      "id": 46,
+      "title": "Task Automation Dashboard",
+      "description": "Automate repetitive tasks and workflows",
+      "technologies": ["Vue.js", "Node.js", "RabbitMQ"],
+      "githubUrl": "https://github.com/user/automation-dashboard",
+      "liveUrl": "https://automation-dashboard-demo.com"
+    },
+    {
+      "id": 47,
+      "title": "Recipe Card Generator",
+      "description": "Create printable recipe cards from online recipes",
+      "technologies": ["Svelte", "Puppeteer"],
+      "githubUrl": "https://github.com/user/recipe-card-gen",
+      "liveUrl": "https://recipe-card-gen-demo.com"
+    },
+    {
+      "id": 48,
+      "title": "Mindfulness & Meditation App",
+      "description": "Guided meditations and relaxation exercises",
+      "technologies": ["React Native", "Firebase"],
+      "githubUrl": "https://github.com/user/mindfulness-app",
+      "liveUrl": "https://mindfulness-app-demo.com"
+    },
+    {
+      "id": 49,
+      "title": "Customer Support Portal",
+      "description": "Ticket management and knowledge base for customers",
+      "technologies": ["Angular", "Django"],
+      "githubUrl": "https://github.com/user/support-portal",
+      "liveUrl": "https://support-portal-demo.com"
+    },
+    {
+      "id": 50,
+      "title": "Plant Identification App",
+      "description": "Identify plants using images",
+      "technologies": ["React", "TensorFlow.js"],
+      "githubUrl": "https://github.com/user/plant-id-app",
+      "liveUrl": "https://plant-id-app-demo.com"
+    },
+    {
+      "title": "45 days mern stack",
+      "description": "45 days mern stack challenge",
+      "technologies": "html ,css , js ,mongodb, express,react",
+      "githubUrl": "https://github.com/abhishekkuniyal/45-days-MERN-stack",
+      "liveUrl": "https://github.com/abhishekkuniyal/45-days-MERN-stack",
+      "id": 51
+    }
+  ]
+}
