@@ -1,4 +1,4 @@
--- Used mongoose for connecting backend with  frontend
--- Used express middleware express.json to get data from the front end
--- Create Scheme for blog app
+-- Used mongoose for connecting backend with  frontend <br>
+-- Used express middleware express.json to get data from the front end <br>
+-- Create Scheme for blog app <br>
 -- Used re.body to get the data
